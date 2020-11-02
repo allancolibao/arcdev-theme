@@ -1,0 +1,21 @@
+{
+    "name": "arcdev-theme",
+    "displayName": "arcdev-theme",
+    "description": "My personal vscode theme",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "arcdev-theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/arcdev-theme-color-theme.json"
+            }
+        ]
+    }
+}
